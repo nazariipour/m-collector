@@ -1,0 +1,73 @@
+{
+  "upstream": "mahsanet/MahsaFreeConfig",
+  "revision": "f98ce12f0abe381c42eaa410b25fe2d9c2929306",
+  "uniqueCount": 34,
+  "inputCount": 50,
+  "duplicatesRemoved": 16,
+  "deduplication": "exact URI lines; parameters and labels preserved",
+  "connectionTested": false,
+  "files": [
+    {
+      "path": "app/sub.txt",
+      "status": "unsupported",
+      "count": 0,
+      "sha256": "18cd35677b8d86a1f788331942ac471f056f8d8aed8813f812cc54ef22288284",
+      "reason": "Base64 content is not UTF-8 text"
+    },
+    {
+      "path": "app/wireguard.txt",
+      "status": "unsupported",
+      "count": 0,
+      "sha256": "fe5e581f192ec727b85ba4015e3032bf6800c38272ade54cbe646843955b36bd",
+      "reason": "Base64 content is not UTF-8 text"
+    },
+    {
+      "path": "mci/sub_1.txt",
+      "status": "included",
+      "count": 18,
+      "sha256": "9210392cc5c6258b51a9771ef0d719340ed838f73fdc3c34c0fe5648a548718c"
+    },
+    {
+      "path": "mci/sub_2.txt",
+      "status": "empty",
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mci/sub_3.txt",
+      "status": "empty",
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mci/sub_4.txt",
+      "status": "empty",
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mtn/sub_1.txt",
+      "status": "included",
+      "count": 30,
+      "sha256": "cb25269c03e08ec60af31fbf8ff862bcf87a42c380d1d49cb1a71441e0b47e5a"
+    },
+    {
+      "path": "mtn/sub_2.txt",
+      "status": "included",
+      "count": 2,
+      "sha256": "8130672ba6ca21f0ca50c2fb5494e9a97f8f02eae9024cf4a45fbca74f72de37"
+    },
+    {
+      "path": "mtn/sub_3.txt",
+      "status": "empty",
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mtn/sub_4.txt",
+      "status": "empty",
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "owner": "mahsanet",
+  "repository": "MahsaFreeConfig",
+  "branch": "main",
+  "directories": ["app", "mci", "mtn"],
+  "optionalFormatDirectories": ["app"],
+  "schemes": ["ss", "ssr", "vmess", "vless", "trojan", "hysteria", "hysteria2", "hy2", "tuic", "wireguard", "wg", "socks", "socks5", "http", "https"]
+}
