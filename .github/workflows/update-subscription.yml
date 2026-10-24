@@ -1,0 +1,52 @@
+name: Update subscription
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'sources.json'
+      - 'scripts/**'
+      - 'test/**'
+      - 'package.json'
+      - '.github/workflows/update-subscription.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: subscription-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Run tests
+        run: node --test
+      - name: Generate subscription
+        run: node scripts/build.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish changed files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- subscriptions/all.txt subscriptions/all-base64.txt subscriptions/report.json
+          if git diff --cached --quiet; then
+            echo 'Subscription is already current.'
+            exit 0
+          fi
+          git commit -m 'chore: update subscription'
+          git push origin HEAD:main
