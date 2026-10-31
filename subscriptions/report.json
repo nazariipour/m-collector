@@ -1,9 +1,9 @@
 {
   "upstream": "mahsanet/MahsaFreeConfig",
-  "revision": "668df94df837fdaaf53c93c1051d3220d83c56ad",
-  "uniqueCount": 42,
-  "inputCount": 53,
-  "duplicatesRemoved": 11,
+  "revision": "671b3018307951cc4c29e588d788a37e4a70cee9",
+  "uniqueCount": 43,
+  "inputCount": 50,
+  "duplicatesRemoved": 7,
   "deduplication": "exact URI lines; parameters and labels preserved",
   "connectionTested": false,
   "files": [
@@ -11,27 +11,27 @@
       "path": "app/sub.txt",
       "status": "unsupported",
       "count": 0,
-      "sha256": "f22db2c102621996827184688ea2c658cbcb3b5b5b92d6a72b625b3ca01ca38b",
+      "sha256": "65618ce990b05f6f16c539a7cca85e7b212f5d1629be3845a96824c22c5de0da",
       "reason": "Base64 content is not UTF-8 text"
     },
     {
       "path": "app/wireguard.txt",
       "status": "unsupported",
       "count": 0,
-      "sha256": "0744634cb30c087bb396bf6a7526f8e2304edd3b62c44f8835763182501d52b0",
+      "sha256": "f8777d0d9a0731d435b1ee855ae694b74446d59660226613911f83737e6def06",
       "reason": "Base64 content is not UTF-8 text"
     },
     {
       "path": "mci/sub_1.txt",
       "status": "included",
-      "count": 30,
-      "sha256": "4f52d6ce911f6350f1c6935c8ee2165e7c2211059f0f282026cc5e1f60c7cf5a"
+      "count": 29,
+      "sha256": "1dc7726c4935f403efcfb60504311ca96c022f62798a515c89980668e0e9adf8"
     },
     {
       "path": "mci/sub_2.txt",
-      "status": "included",
-      "count": 3,
-      "sha256": "36026e2a45535a52ff4d1cd35da6d3a05daa890dd5d33a22b0bff5a53179424a"
+      "status": "empty",
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "mci/sub_3.txt",
@@ -48,8 +48,8 @@
     {
       "path": "mtn/sub_1.txt",
       "status": "included",
-      "count": 20,
-      "sha256": "09c1aee2abf034bc8f945d8f1021eb6a6be99330a6c1ea952fd4d31766f11554"
+      "count": 21,
+      "sha256": "d4ad8d95b4ac2123696de49c666581d39001d0b9e8ee863b2da0b15e93b81991"
     },
     {
       "path": "mtn/sub_2.txt",
