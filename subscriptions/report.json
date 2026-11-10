@@ -1,9 +1,9 @@
 {
   "upstream": "mahsanet/MahsaFreeConfig",
-  "revision": "653048e5eb55078d2431d46651f9d842f22bf3e9",
-  "uniqueCount": 8,
-  "inputCount": 8,
-  "duplicatesRemoved": 0,
+  "revision": "cb6b79357ac40e33b7042698c87cc80da9de161b",
+  "uniqueCount": 16,
+  "inputCount": 17,
+  "duplicatesRemoved": 1,
   "deduplication": "exact URI lines; parameters and labels preserved",
   "connectionTested": false,
   "files": [
@@ -11,14 +11,14 @@
       "path": "app/sub.txt",
       "status": "unsupported",
       "count": 0,
-      "sha256": "c4c29ab5f978f282116e102a09084229a6d2df7f29eb19cc1ab5eb1f308e798a",
+      "sha256": "2fdb4ae24db11d5071548ad2a80bfd56b7a6cf188d3cbcab246e4e3beb5eb25d",
       "reason": "Base64 content is not UTF-8 text"
     },
     {
       "path": "app/wireguard.txt",
       "status": "unsupported",
       "count": 0,
-      "sha256": "ac85cffaec682c5d80c15474b1fd2d6199cb7d9ba78d79861104f47ba3d9f972",
+      "sha256": "f222b355aca431c1c89bbb3a1b3764825947c2bddde290004d4c068de1fa052a",
       "reason": "Base64 content is not UTF-8 text"
     },
     {
@@ -48,8 +48,8 @@
     {
       "path": "mtn/sub_1.txt",
       "status": "included",
-      "count": 6,
-      "sha256": "700a752abe1983b6e9820aff6c19446c7898fd06ff293fb893639b84d63d3e4f"
+      "count": 15,
+      "sha256": "39d9b0707f395da8af486224380ee4faa79b656ac4d24529fe3a447a19e680d2"
     },
     {
       "path": "mtn/sub_2.txt",
