@@ -1,9 +1,9 @@
 {
   "upstream": "mahsanet/MahsaFreeConfig",
-  "revision": "008b6e2b75a853fa3e1f79de6a2c0b47527d9eb4",
-  "uniqueCount": 13,
-  "inputCount": 14,
-  "duplicatesRemoved": 1,
+  "revision": "f30f6bfa1f80ffaab07bb07b337d897431c91d6b",
+  "uniqueCount": 11,
+  "inputCount": 13,
+  "duplicatesRemoved": 2,
   "deduplication": "exact URI lines; parameters and labels preserved",
   "connectionTested": false,
   "files": [
@@ -11,7 +11,7 @@
       "path": "app/sub.txt",
       "status": "unsupported",
       "count": 0,
-      "sha256": "89946a9756e816d80770a9ca65a6ce0d8cd72585bd842710bdce99eb3695cc14",
+      "sha256": "f6b884fbd0fcaaaa90de4049f10f43a036a1f8eb4472aa64e8ec49249b25483c",
       "reason": "Base64 content is not UTF-8 text"
     },
     {
@@ -48,8 +48,8 @@
     {
       "path": "mtn/sub_1.txt",
       "status": "included",
-      "count": 9,
-      "sha256": "a56167eeae648d1eb26cef1624b779c191205fc566070a1baefb0a40d58ebd5d"
+      "count": 8,
+      "sha256": "c08f7a594cd188e04c8b1f0b93b4cdedf03c8220d429f840f417282771410961"
     },
     {
       "path": "mtn/sub_2.txt",
